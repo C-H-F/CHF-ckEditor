@@ -1,0 +1,2 @@
+imgmap
+ - http://dev.ckeditor.com/wiki/plugins/imagemaps
