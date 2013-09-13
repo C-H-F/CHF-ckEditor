@@ -7,7 +7,7 @@ Für OXID CE 4.7.x
 3. Fertig
 
 ## Screenshots
-(aufgrund unwissen mit md Dateien nicht verfügbar)
+![Screenshot](screenshot.jpg)
 
 ## Probleme
 1. Derzeit treten Probleme mit den Tooltops (?) auf. Diese lassen sich aufgrund des JQuery includes nicht mehr öffnen.
