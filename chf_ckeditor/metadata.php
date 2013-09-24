@@ -45,7 +45,8 @@ $aModule = array(
   'files'       => array(),
   'templates' => array(),
   'blocks' => array(
-    array('template' => 'headitem.tpl', 'block' => 'admin_headitem_js', 'file' => '/out/blocks/admin/tpl/admin_headitem_incjs.tpl'),
+    array('template' => 'headitem.tpl', 'block' => 'admin_headitem_incjs', 'file' => '/out/blocks/admin/tpl/admin_headitem_incjs.tpl'),
+    array('template' => 'headitem.tpl', 'block' => 'admin_headitem_js', 'file' => '/out/blocks/admin/tpl/admin_headitem_js.tpl'),
   ),
   'settings' => array(),
   'events'       => array(),

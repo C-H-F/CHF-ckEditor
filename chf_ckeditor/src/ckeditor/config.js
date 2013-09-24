@@ -11,8 +11,11 @@ CKEDITOR.editorConfig = function( config ) {
 	config.protectedSource.push(/<!--[{\s\S]*?-->/g); //comment
 	config.protectedSource.push(/<%txt\n[{\s\S]*\n?txt%>/g); //plain-text
 	
-	config.extraPlugins = 'imagemaps'; // bla,bla,imagemap
+	//config.extraPlugins = 'imagemaps'; // bla,bla,imagemap
 	
 	config.removePlugins = 'save'; //SAVE entfernen
 	config.allowedContent = true; 
+	
+	config.filebrowserBrowseUrl = '/modules/chf_ckeditor/pdw_file_browser';
+    config.filebrowserImageBrowseUrl = '/modules/chf_ckeditor/pdw_file_browser';
 };
