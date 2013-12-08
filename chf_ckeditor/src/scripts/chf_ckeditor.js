@@ -6,12 +6,6 @@ $(document).ready(function(){
 		
 		$this.ckeditor();
 		
-		var id = $this.attr("id");
-		var identifier = id.substring(prefix.length);
-		
-		$("input[name='editval["+identifier+"]']").remove();
-		$this.attr("name", "editval["+identifier+"]");
-		
 	});
 	
 });

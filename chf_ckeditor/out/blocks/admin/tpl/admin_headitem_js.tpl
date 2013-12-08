@@ -76,8 +76,9 @@ function copyLongDesc( sIdent )
 	var textVal = $("#editor_"+sIdent).val();
 	
 	//copy into textarea
-	$("textarea[name='editval["+sIdent+"]']").val(textVal);
-	
+	//$("textarea[name='editval["+sIdent+"]']").val(textVal);
+	$("[name='editval["+sIdent+"]']").val(textVal);
+
 }
 
 -->
