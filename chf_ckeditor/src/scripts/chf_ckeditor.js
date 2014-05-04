@@ -1,11 +1,17 @@
 $(document).ready(function(){
 	var prefix = 'editor_';
 	
-	$('textarea[id^="'+prefix+'"]').each(function(){
-		$this = $(this);
+	var cmsIdent = ($('input[name="editval[oxcontents__oxloadid]"]').val());
+	
+	if(typeof(cmsIdent) == "undefined" || cmsIdent.indexOf("plain") == -1){
 		
-		$this.ckeditor();
+		$('textarea[id^="'+prefix+'"]').each(function(){
+			$this = $(this);
+			
+			$this.ckeditor();
+			
+		});
 		
-	});
+	}
 	
 });
