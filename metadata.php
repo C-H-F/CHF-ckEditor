@@ -31,7 +31,7 @@ $sMetadataVersion = '1.0';
  * Module information
  */
 $aModule = array(
-  'id'          => 'chf_ckeditor',
+  'id'          => 'ck-editor',
   'title'       => 'CHF ckEditor',
   'description' => array(
     'en' => 'Integrates the ckEditor into the OXID backend',
