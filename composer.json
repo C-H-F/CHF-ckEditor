@@ -1,0 +1,15 @@
+{
+    "name": "chf/ck-editor",
+    "description": "Integriert den ckEditor in das OXID-Backend",
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Christian Fürthauer",
+            "email": "mail.getter@gmx.at"
+        }
+    ],
+    "minimum-stability": "dev"
+}
