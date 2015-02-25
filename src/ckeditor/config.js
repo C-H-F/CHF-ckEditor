@@ -16,6 +16,6 @@ CKEDITOR.editorConfig = function( config ) {
 	config.removePlugins = 'save'; //SAVE entfernen
 	config.allowedContent = true; 
 	
-	config.filebrowserBrowseUrl = '/modules/chf_ckeditor/pdw_file_browser';
-    config.filebrowserImageBrowseUrl = '/modules/chf_ckeditor/pdw_file_browser';
+	config.filebrowserBrowseUrl = '/modules/ck-editor/pdw_file_browser';
+    config.filebrowserImageBrowseUrl = '/modules/ck-editor/pdw_file_browser';
 };
