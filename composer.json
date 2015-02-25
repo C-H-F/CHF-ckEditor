@@ -1,6 +1,7 @@
 {
     "name": "chf/ck-editor",
     "description": "Integriert den ckEditor in das OXID-Backend",
+    "type": "oxid-module",
     "require": {
         "composer/installers": "~1.0"
     },
